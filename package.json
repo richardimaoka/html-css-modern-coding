@@ -1,0 +1,24 @@
+{
+  "name": "html-css-modern-coding",
+  "version": "1.0.0",
+  "description": "![作って学ぶ　HTML＆CSSモダンコーディング](https://ebisu.com/github/html-css-modern-coding.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ebisucom/html-css-modern-coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebisucom/html-css-modern-coding/issues"
+  },
+  "homepage": "https://github.com/ebisucom/html-css-modern-coding#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
