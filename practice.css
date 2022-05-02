@@ -23,3 +23,7 @@ body {
   width: min(92%, 1166px);
   margin: auto;
 }
+
+img {
+  display: block;
+}
