@@ -25,21 +25,11 @@ body {
   max-width: 1166px;
   padding-left: 4%;
   padding-right: 4%;
-  margin: auto
-}
-
-.grid {
-  display: grid;
-  grid-template-columns:
-    1fr min(92%, 1166px) 1fr;
-}
-
-.grid > * {
-  grid-column: 2;
+  margin: auto;
 }
 
 img {
-   display: block; 
+  display: block;
 }
 
 /* ナビゲーションボタン */
