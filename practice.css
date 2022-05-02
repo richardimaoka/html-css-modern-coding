@@ -12,13 +12,11 @@ body {
 }
 
 .header-container {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
-}
-
-.header-container > .site {
-  margin-right: auto;
 }
 
 /* 横幅と左右の余白 */
