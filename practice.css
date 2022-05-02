@@ -48,6 +48,15 @@ img {
   display: block;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  filter: brightness(90%) contrast(120%);
+}
+
 /* ナビゲーションボタン */
 .navbtn {
   padding: 0;
@@ -86,4 +95,18 @@ img {
 
 .hero p {
   margin-bottom: 72px;
+}
+
+/* ボタン */
+.btn {
+  display: block;
+  width: 260px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #e8b368;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 0 6px #00000052;
 }
