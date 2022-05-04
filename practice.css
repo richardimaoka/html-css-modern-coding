@@ -112,3 +112,9 @@ a:hover {
   text-align: center;
   text-shadow: 0 0 6px #00000052;
 }
+
+/* 画像とテキスト */
+.imgtext {
+  padding: clamp(90px, 9vw, 120px) 0;
+  background-color: #ffffff;
+}
