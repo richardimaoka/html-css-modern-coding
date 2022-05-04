@@ -13,7 +13,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+figure {
   margin: 0;
 }
 
@@ -44,6 +45,12 @@ p {
   margin: auto;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -66,12 +73,10 @@ a:hover {
 
 /* ヒーロー */
 .hero {
-  display: grid;
-  grid-template-rows: 650px;
-}
-
-.hero > * {
-  grid-area: 1 / 1;
+  height: 650px;
+  background-image: url(./web/img/hero.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-container {
@@ -79,12 +84,6 @@ a:hover {
   justify-items: center;
   align-content: center;
   height: 100%;
-}
-
-.hero > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .hero h1 {
