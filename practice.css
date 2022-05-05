@@ -207,6 +207,15 @@ a:hover {
   gap: 32px 25px;
 }
 
+.posts-container > :nth-child(5) {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.posts-container > :nth-child(5) img {
+  aspect-ratio: 3 / 2.5;
+}
+
 @media (min-width: 768px) {
   .posts-container {
     grid-template-columns: repeat(3, 1fr);
