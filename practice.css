@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* 基本 */
+:root {
+  --v-space: clamp(90px, 9vw, 120px);
+}
+
 body {
   margin: 0px;
   background-color: #eeeeee;
@@ -42,6 +47,7 @@ a:hover {
   padding-left: 4%;
   padding-right: 4%;
   margin: auto;
+  position: relative;
 }
 
 /* ヘッダー */
@@ -115,7 +121,7 @@ a:hover {
 
 /* 画像とテキスト */
 .imgtext {
-  padding: clamp(90px, 9vw, 120px) 0;
+  padding: var(--v-space) 0;
   background-color: #ffffff;
 }
 
@@ -170,4 +176,32 @@ a:hover {
 /* + sign: the first .imgtext right after the preceeding .imgtext */
 .imgtext + .imgtext {
   padding-top: 0;
+}
+
+/* 記事一覧 */
+.posts {
+  padding: var(--v-space) 0;
+  background-color: #f3f1ed;
+}
+
+/* パーツの見出し */
+.heading {
+  position: absolute;
+  top: calc((var(--v-space) + 0.6em) * -1);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(40px, 5.2vw, 70px);
+  min-height: 0vw;
+  font-weight: 300;
+}
+
+.heading span {
+  display: block;
+  color: #666666;
+  font-size: 18px;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 25px;
 }
