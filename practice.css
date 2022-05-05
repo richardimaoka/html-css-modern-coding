@@ -224,3 +224,9 @@ a:hover {
     height: 180px;
   }
 }
+
+.post h3 {
+  margin: 1em 0 0.5em;
+  font-size: clamp(12px, 2vw, 20px);
+  min-height: 0vw;
+}
