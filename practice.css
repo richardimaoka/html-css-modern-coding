@@ -239,3 +239,16 @@ a:hover {
   font-size: clamp(12px, 2vw, 20px);
   min-height: 0vw;
 }
+
+/* フッター */
+.footer {
+  padding: 70px 0;
+  background-color: #ffffff;
+  color: #707070;
+  font-size: 13px;
+}
+.footer-container {
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+}
