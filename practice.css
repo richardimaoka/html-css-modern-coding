@@ -147,6 +147,7 @@ a:hover {
 .imgtext-container {
   display: flex;
   flex-direction: column;
+  gap: clamp(45px, 6vw, 80px);
 }
 
 @media (min-width: 768px) {
@@ -156,6 +157,7 @@ a:hover {
   }
   .imgtext-container > .text {
     flex: 1;
+    min-width: 17em;
   }
   .imgtext-container > .img {
     flex: 2;
