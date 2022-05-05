@@ -162,4 +162,12 @@ a:hover {
   .imgtext-container > .img {
     flex: 2;
   }
+  .imgtext-container.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* + sign: the first .imgtext right after the preceeding .imgtext */
+.imgtext + .imgtext {
+  padding-top: 0;
 }
