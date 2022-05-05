@@ -30,6 +30,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -204,4 +205,10 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px 25px;
+}
+
+@media (min-width: 768px) {
+  .posts-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
