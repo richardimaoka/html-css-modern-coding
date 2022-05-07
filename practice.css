@@ -264,6 +264,12 @@ a:hover {
 }
 
 /* フッター：SNS メニュー */
+.footer-sns {
+  display: flex;
+  gap: 24px;
+  font-size: 24px;
+}
+
 .footer-sns a {
   display: grid;
   place-items: center;
@@ -278,4 +284,12 @@ a:hover {
   .footer-sns a {
     height: 36px;
   }
+}
+
+/* フッター：テキストメニュー */
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
